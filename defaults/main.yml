@@ -13,7 +13,7 @@ boundary_command: "{{ boundary_install_directory }}/boundary"
 
 # Database initialization from https://www.boundaryproject.io/docs/installing/no-gen-resources
 # Clear this value to pre-populate an example admin, organization, and project in the DB
-boundary_db_init_flags: '-skip-initial-login-role-creation'
+# boundary_db_init_flags: '-skip-initial-login-role-creation'
 
 # Only used if package installation == true
 boundary_yum_repo: 'https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo'
